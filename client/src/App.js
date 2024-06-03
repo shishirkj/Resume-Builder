@@ -57,7 +57,7 @@ export function App() {
           <Route
             exact
             path="/"
-            element={user?.email ? <Resume user={user} /> : <Home />}
+            element={<Home />}
           ></Route>
           <Route
             exact
